@@ -1,0 +1,10 @@
+---
+# tasks file for ubuntu
+
+- name: Command hello
+  command: echo 'hello'
+  register: hellocommand
+
+- debug: msg="{{ hellocommand.stdout }}"
+
+- debug: msg="{{ hellocommand.stderr }}"

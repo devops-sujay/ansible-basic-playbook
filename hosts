@@ -1,0 +1,13 @@
+[localhost]
+localhost
+
+[mypilab]
+server01 ansible_host=192.168.86.132	 					
+server02 ansible_host=192.168.86.133	 		
+server03 ansible_host=192.168.86.139	 					
+server04 ansible_host=192.168.86.143	 			
+server05 ansible_host=192.168.86.144	 
+
+
+
+
